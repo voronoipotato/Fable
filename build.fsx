@@ -7,7 +7,7 @@ open Fake
 open Fake.AssemblyInfoFile
 
 // version info
-let fableCompilerVersion = "0.4.5"
+let fableCompilerVersion = "0.4.6"
 let fableCoreVersion = "0.2.3"
 
 module Util =
