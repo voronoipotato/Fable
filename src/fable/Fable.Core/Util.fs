@@ -140,7 +140,7 @@ module Path =
     let getRelativePath fromPath toPath =
         // Add a dummy file to make it work correctly with dirs
         let addDummyFile path =
-            if IO.Path.GetExtension(path) = ""
+            if IO.Directory.Exists(path)
             then IO.Path.Combine(path, "dummy.txt")
             else path
         let fromPath = addDummyFile fromPath
