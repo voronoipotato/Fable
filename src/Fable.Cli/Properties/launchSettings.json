@@ -13,6 +13,11 @@
       // quicktest-ts
       "commandLineArgs": "src/quicktest --lang TypeScript --exclude Fable.Core --noCache"
 
+    },
+    "Fable.Cli compile lua tests": {
+      "commandName": "Project",
+      "workingDirectory": "../../../../..",
+      "commandLineArgs": "tests/Lua/Fable.Tests.Lua.fsproj --outDir build/tests/Lua --exclude Fable.Core --lang lua --fableLib build/tests/Lua/fable-lib"
     }
   }
 }

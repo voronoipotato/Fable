@@ -591,7 +591,7 @@ let testPython() =
     // runInDir buildDir "python -m pytest -x"
 
 let testLua() =
-    buildLuaLibraryIfNotExists() // NOTE: fable-library-py needs to be built separately.
+    buildLuaLibraryIfNotExists() // NOTE: fable-library-lua needs to be built separately.
 
     let projectDir = "tests/Lua"
     let buildDir = "build/tests/Lua"
