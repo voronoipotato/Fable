@@ -375,6 +375,7 @@ let getLibPkgVersion = function
     | Python
     | Rust
     | Dart
+    | Lua
     | Php -> None
 
 [<EntryPoint>]
